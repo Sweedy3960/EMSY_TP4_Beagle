@@ -1,5 +1,7 @@
 # EMSY_TP4_Beagle
-Utilisation de la BeagleBone, et d'un capteur Grove
+Utilisation de la BeagleBone processeur ARM Cortex A8 (CPU à 1 GHz et 512 MB de RAM pour la version 
+utilisée, préinstallés avec une version de Linux Debian et une adresse IP fixe pour le réseau bleu, indiquée sur le boîtier (10.228.134.227)
+et d'un capteur Grove [url](https://www.seeedstudio.com/Grove-Temp-Humi-Sensor-SHT40-p-5384.html)
 
 # Logiciels utilisés
 Sur le pc: 
