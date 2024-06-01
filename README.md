@@ -63,7 +63,7 @@ puis ajouter la ligne :
 
 ## Terminal: 
 ```bash
-python3 /EMSY_TP4_Beagle/tp4/tp_emsy.py
+python3 /"Pathto"/tp_emsy.py
 ```
 ![image](https://github.com/Sweedy3960/EMSY_TP4_Beagle/assets/89172461/6cb74cde-17d7-4e88-8793-f5354b534a1e)
 
