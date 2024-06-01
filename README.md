@@ -1,5 +1,4 @@
 # EMSY_TP4_Beagle
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
 Utilisation de la BeagleBone, et d'un capteur Grove
 
 # Logiciels utilisés
