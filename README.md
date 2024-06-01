@@ -56,10 +56,12 @@ puis ajouter la ligne :
 # Résultats:
 "le cron à été set à 1 min pour ne pas perdre de temps"
 ## Logs:
-![image](https://github.com/Sweedy3960/EMSY_TP4_Beagle/assets/89172461/2d28d24c-5bea-4c50-94a2-445ca4262dde)
+![image](https://github.com/Sweedy3960/EMSY_TP4_Beagle/assets/89172461/dccacf1d-7b0e-4ee9-bf71-95676a9d5f0b)
+
 
 ## Mail:
-![image](https://github.com/Sweedy3960/EMSY_TP4_Beagle/assets/89172461/20cbc0d1-eacf-4413-b113-e4a361b108e9)
+![image](https://github.com/Sweedy3960/EMSY_TP4_Beagle/assets/89172461/eb589dbc-1cad-425b-8f47-45fc730ba914)
+
 
 ## Terminal: 
 ```bash
