@@ -51,7 +51,7 @@ crontab -e
 ```
 puis ajouter la ligne :
 ```bash
-/15 * * * * /usr/bin/python3 /home/debian/EMSY_TP4_Beagle/tp4/tp_emsy.py
+/15 * * * * /"PathTo"/python3 "PathTo"/EMSY_TP4_Beagle/tp4/tp_emsy.py
 ```
 # Résultats:
 "le cron à été set à 1 min pour ne pas perdre de temps"
