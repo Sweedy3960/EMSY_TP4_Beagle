@@ -87,7 +87,7 @@ def csv_write_row(data_row):
      # Write csv here
          with open('/home/debian/EMSY_TP4_Beagle/tp4/TempLog.csv', 'a', newline='') as csvfile:
             writter = csv.writer(csvfile)
-            writter.writerow([datetime.now(),temperature.degrees_celsius, humidity.percent_rh, dew_point])
+            writter.writerow([datetime.now().date(),datetime.now().time(), data_row[0], data_row[1], data_row[2]])
             csvfile.close()
 
      except Exception as ex:
@@ -105,13 +105,13 @@ if __name__ == "__main__":  # Runs only if called as a script but not if importe
 
     print("Hello and welcome to EMSY")
     temperature, humidity = read_sensor()
-    print (int(temperature.degrees_celsius))
-    print(humidity.percent_rh)
+    print ("temperature = "  +str(round(int(temperature.degrees_celsius),2)))
+    print("humidite = " +str(round(humidity.percent_rh,2)))
     dew_point = calculate_dew_point(temperature.degrees_celsius, humidity.percent_rh)
-    print(dew_point)
+    print("point de rosee = "+ str(round(dew_point,2)))
     time = datetime.now().strftime('%d %b %Y %H:%M     ')
-    print(time)
-    print(csv_write_row([temperature.degrees_celsius,humidity.percent_rh,dew_point]))
+    if csv_write_row([round(temperature.degrees_celsius,2),round(humidity.percent_rh,2),round(dew_point,2)]) :
+       print("logs done")
 
    
 if temperature.degrees_celsius >= 28:
