@@ -46,7 +46,7 @@ sudo python3 setup.py build
 
 ## Utilisation
 ```bash
-git clone https://github.com/Sensirion/python-i2c-sht](https://github.com/Sweedy3960/EMSY_TP4_Beagle)
+git clone https://github.com/Sweedy3960/EMSY_TP4_Beagle
 crontab -e 
 ```
 puis ajouter la ligne :
