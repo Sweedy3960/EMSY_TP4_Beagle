@@ -20,9 +20,13 @@ Sur la board:
 * datetime 
   
 ## Drivers utilisés pour le module de Temp&Humi (SHT40)
+
 Sensirion/python-i2c-sht [GitHub Pages](https://github.com/Sensirion/python-i2c-sht).
+
 Sensirion/python-i2c-sht4x [GitHub Pages](https://github.com/Sensirion/python-i2c-sht4x).
+
 Sensirion/python-i2c [GitHub Pages](https://github.com/Sensirion/python-i2c-driver).
+
 
 ```bash
 sudo apt-get update && upgrade
