@@ -27,7 +27,7 @@ Sensirion/python-i2c-sht4x [GitHub Pages](https://github.com/Sensirion/python-i2
 
 Sensirion/python-i2c [GitHub Pages](https://github.com/Sensirion/python-i2c-driver).
 
-
+##Sur la board en shh: 
 ```bash
 sudo apt-get update && upgrade
 git clone https://github.com/Sensirion/python-i2c-sht
