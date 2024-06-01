@@ -5,6 +5,7 @@ Utilisation de la BeagleBone, et d'un capteur Grove
 Sur le pc: 
 * WinSCP: pour le transfer de fichier et la modification 
 * Putty: pour ssh la board
+  
 Sur la board: 
 * tmux
 * crontab
